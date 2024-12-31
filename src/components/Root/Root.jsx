@@ -9,50 +9,41 @@ export const userContext = createContext('');
 
 
 const Root = () => {
-    const [cart, setCart]= useState([]);
-    const [wish, setWish]= useState([]);
+    const [cart, setCart] = useState([]);
+    const [wish, setWish] = useState([]);
     const [userName, setUserName] = useState('');
 
-    // console.log('Hello,', userName);
     const location = useLocation();
- const path= location.pathname;
-//  console.log('Root Path',path);
+    const path = location.pathname;
+
     return (
         <cartContext.Provider value={{ cart, setCart }}>
-        <WishContext.Provider value={{ wish, setWish }}>
+            <WishContext.Provider value={{ wish, setWish }}>
 
-            <userContext.Provider value={{userName, setUserName}}>
+                <userContext.Provider value={{ userName, setUserName }}>
 
-            <div className=''>
-                <Navbar />
-                <Outlet />
-                
-                 {
-                    (
-                        (path==='/products') ||
-                        (path==='/statistics') ||
-                        (path==='/dashboard') || 
-                        (path==='/signIn')  ||
-                        (path==='/cartList') ||
-                        (path==='/wishList')  ||
-                        (path==='/checkOut')
-                        
-                    ) 
-                    && 
-                    <> <Footer></Footer>
-                    </>
-                    
-                } 
+                    <div className=''>
+                        <Navbar />
+                        <Outlet />
 
+                        {
+                            (
+                                (path === '/products') ||
+                                (path === '/statistics') ||
+                                (path === '/dashboard') ||
+                                (path === '/signIn') ||
+                                (path === '/cartList') ||
+                                (path === '/wishList') ||
+                                (path === '/checkOut')
+                            )
+                            &&
+                            <> <Footer></Footer>
+                            </>
+                        }
+                    </div>
+                </userContext.Provider>
 
-            </div>
-
-            </userContext.Provider>
-        
-            
-       
-        </WishContext.Provider>
-
+            </WishContext.Provider>
         </cartContext.Provider>
     );
 };
