@@ -36,8 +36,7 @@ const Dashboard = () => {
         }
     }
 
-    const allProducts = useLoaderData() || [];
-
+    const allProducts = useLoaderData();
     const [cartProduct, setCartProduct] = useState([]);
 
 
@@ -82,7 +81,6 @@ const Dashboard = () => {
     const navigate = useNavigate();
 
     const closeModal = () => {
-
         setIsModalOpen(false);
         setTotalCost(0);
         setCartProduct([]);
@@ -98,14 +96,12 @@ const Dashboard = () => {
         const productTitle = product.product_title;
         toast(`${productTitle} is added to your cart list.`);
     }
-
     const handleRemoveCart = (x) => {
         const newCarts = cart.filter(p => p != x);
         setCart(newCarts);
 
 
     }
-
     const handleRemoveWish = (x) => {
         const newWishLists = wish.filter(p => p != x);
         setWish(newWishLists);
