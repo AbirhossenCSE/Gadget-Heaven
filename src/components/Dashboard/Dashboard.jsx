@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 
 import modalImage from '../../assets/Group.png'
 import Modal from '../Modal/Modal';
-// import WishList from '../WishList/WishList';
+import WishList from '../WishList/WishList';
 import { toast } from 'react-toastify';
 
 

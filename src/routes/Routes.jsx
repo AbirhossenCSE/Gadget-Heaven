@@ -17,6 +17,7 @@ import Laptop from "../components/Laptop/Laptop";
 import Phones from "../components/Phones/Phones";
 import Accessories from "../components/Accessories/Accessories";
 import CartDetails from "../components/CartDetails/CartDetails";
+import WishDetails from "../components/WishDetails/WishDetails";
 
 
 const routes = createBrowserRouter([
@@ -41,6 +42,11 @@ const routes = createBrowserRouter([
       {
         path: '/cartList',
         element: <CartDetails></CartDetails>,
+        loader: () => fetch('/allProducts.json'),
+      },
+      {
+        path: '/wishList',
+        element: <WishDetails></WishDetails>,
         loader: () => fetch('/allProducts.json'),
       },
 
