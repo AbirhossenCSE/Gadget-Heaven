@@ -10,11 +10,10 @@ const Accessories = () => {
 
     const allData= useLoaderData();
 
-    useEffect( ()=>{
-       
+    useEffect( ()=>{      
          setAllProducts(allData) ;
-        //  console.log('Laptop:',allData);
          setActiveProducts(allData);
+         
     }, [])
 
     return (           
@@ -24,9 +23,7 @@ const Accessories = () => {
                             activeProducts.map( product => <Product   key={product.product_id} product={product} ></Product>)
                         }
                     </div>
-                </div>
-            
-       
+                </div>      
     );
 };
 

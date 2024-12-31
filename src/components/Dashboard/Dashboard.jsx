@@ -2,11 +2,11 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { WishContext, cartContext } from '../Root/Root';
 import { useLoaderData, useNavigate } from 'react-router-dom';
-// import Cart from '../Cart/Cart';
+import Cart from '../Cart/Cart';
 import ReactDOM from 'react-dom';
 
 import modalImage from '../../assets/Group.png'
-// import Modal from '../Modal/Modal';
+import Modal from '../Modal/Modal';
 // import WishList from '../WishList/WishList';
 import { toast } from 'react-toastify';
 
@@ -71,7 +71,7 @@ const Dashboard = () => {
         setTotalCost(sum);
     }, [cartProduct]);
 
-    
+
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openModal = () => setIsModalOpen(true);
     const navigate = useNavigate();
@@ -152,9 +152,9 @@ const Dashboard = () => {
                             </div>
                         </div>
                         <div>
-                            {/* {
+                            {
                                 cartProduct.map( (product,idx) => <Cart key={idx} handleRemoveCart={handleRemoveCart} product={product} ></Cart>)
-                            } */}
+                            }
                         </div>
                     </>
                 }
