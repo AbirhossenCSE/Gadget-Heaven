@@ -1,0 +1,102 @@
+[
+    {
+        "product_id": 10,
+        "product_title": "iPhone 13 Pro",
+        "product_image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_09142021_inline.jpg.large.jpg",
+        "category": "Phones",
+        "price": 59,
+        "description": "Apple iPhone 13 Pro with A15 Bionic, 6GB RAM, and 256GB storage.",
+        "Specification": ["A15 Bionic", "6GB RAM", "256GB storage", "6.1-inch Super Retina XDR display"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 11,
+        "product_title": "Samsung Galaxy S21 Ultra",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-Z-Fold5-Icy-Blue-4723.jpg",
+        "category": "Phones",
+        "price": 60,
+        "description": "Samsung Galaxy S21 Ultra with Exynos 2100, 12GB RAM, and 256GB storage.",
+        "Specification": ["Exynos 2100", "12GB RAM", "256GB storage", "6.8-inch QHD+ AMOLED display"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 12,
+        "product_title": "OnePlus 9 Pro",
+        "product_image": "https://oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9-pro/Pine%20green-gallery..png",
+        "category": "Phones",
+        "price": 61,
+        "description": "OnePlus 9 Pro with Snapdragon 888, 8GB RAM, and 128GB storage.",
+        "Specification": ["Snapdragon 888", "8GB RAM", "128GB storage", "6.7-inch Fluid AMOLED display"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 13,
+        "product_title": "Google Pixel 6 Pro",
+        "product_image": "https://www.custommacbd.com/cdn/shop/files/3784-95312_540x.jpg?v=1687459730",
+        "category": "Phones",
+        "price": 62,
+        "description": "Google Pixel 6 Pro with Google Tensor, 12GB RAM, and 256GB storage.",
+        "Specification": ["Google Tensor", "12GB RAM", "256GB storage", "6.71-inch LTPO OLED display"],
+        "availability": false,
+        "rating": 4.6
+      },
+      {
+        "product_id": 14,
+        "product_title": "Xiaomi Mi 11 Ultra",
+        "product_image": "https://www.mobiledokan.co/wp-content/uploads/2020/12/Xiaomi-Mi-11-Ultra-Ceramic-Balck-500x500.jpg",
+        "category": "Phones",
+        "price": 63,
+        "description": "Xiaomi Mi 11 Ultra with Snapdragon 888, 12GB RAM, and 256GB storage.",
+        "Specification": ["Snapdragon 888", "12GB RAM", "256GB storage", "6.81-inch WQHD+ AMOLED display"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 15,
+        "product_title": "Sony Xperia 1 III",
+        "product_image": "https://www.mobiledokan.co/wp-content/uploads/2020/09/Sony-Xperia-1-III-500x500.jpg",
+        "category": "Phones",
+        "price": 64,
+        "description": "Sony Xperia 1 III with Snapdragon 888, 12GB RAM, and 256GB storage.",
+        "Specification": ["Snapdragon 888", "12GB RAM", "256GB storage", "6.5-inch 4K HDR OLED display"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 16,
+        "product_title": "Huawei P40 Pro",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/HUAWEI-P40-Pro-5G-Black-6721.jpg",
+        "category": "Phones",
+        "price": 65,
+        "description": "Huawei P40 Pro with Kirin 990, 8GB RAM, and 256GB storage.",
+        "Specification": ["Kirin 990", "8GB RAM", "256GB storage", "6.58-inch OLED display"],
+        "availability": false,
+        "rating": 4.5
+      },
+      {
+        "product_id": 17,
+        "product_title": "Asus ROG Phone 5",
+        "product_image": "https://www.mobiledokan.co/wp-content/uploads/2021/01/Asus-ROG-Phone-5-500x500.jpg",
+        "category": "Phones",
+        "price": 66,
+        "description": "Asus ROG Phone 5 with Snapdragon 888, 16GB RAM, and 256GB storage.",
+        "Specification": ["Snapdragon 888", "16GB RAM", "256GB storage", "6.78-inch AMOLED display"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 18,
+        "product_title": "Oppo Find X3 Pro",
+        "product_image": "https://www.mobiledokan.co/wp-content/uploads/2020/12/Oppo-Find-X3-Pro-Cosmic-Mocha-500x500.jpg",
+        "category": "Phones",
+        "price": 67,
+        "description": "Oppo Find X3 Pro with Snapdragon 888, 12GB RAM, and 256GB storage.",
+        "Specification": ["Snapdragon 888", "12GB RAM", "256GB storage", "6.7-inch QHD+ AMOLED display"],
+        "availability": true,
+        "rating": 4.7
+      }
+    
+]

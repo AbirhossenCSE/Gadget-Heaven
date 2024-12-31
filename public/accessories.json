@@ -1,0 +1,68 @@
+[
+    {
+        "product_id": 19,
+        "product_title": "Apple AirPods Pro",
+        "product_image": "https://i5.walmartimages.com/seo/Open-Box-Apple-Airpods-Pro-with-Wireless-Charging-Case_77057503-32fc-4b0d-8b40-4fb928bfaf28_1.f3ddf06690e3d45b6a96b4247a3c236b.jpeg",
+        "category": "Accessories",
+        "price": 68,
+        "description": "Apple AirPods Pro with active noise cancellation and transparency mode.",
+        "Specification": ["Active Noise Cancellation", "Transparency Mode", "Wireless Charging Case", "Sweat and Water Resistant"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 20,
+        "product_title": "Samsung Galaxy Watch 4",
+        "product_image": "https://gadgetz.com.bd/wp-content/uploads/2022/01/galaxy-watch4-silver-.jpg",
+        "category": "Accessories",
+        "price": 69,
+        "description": "Samsung Galaxy Watch 4 with body composition analysis and advanced health monitoring.",
+        "Specification": ["Body Composition Analysis", "Advanced Health Monitoring", "Wear OS", "1.4-inch Super AMOLED display"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 21,
+        "product_title": "Logitech MX Master 3",
+        "product_image": "https://www.custommacbd.com/cdn/shop/products/log7.png?v=1613634745",
+        "category": "Accessories",
+        "price": 70,
+        "description": "Logitech MX Master 3 Wireless Mouse with advanced ergonomic design and precise control.",
+        "Specification": ["Ergonomic Design", "4000 DPI Precision", "USB-C Charging", "Flow Cross-Computer Control"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 22,
+        "product_title": "Anker PowerCore 20100",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/2001-79403.jpg",
+        "category": "Accessories",
+        "price": 71,
+        "description": "Anker PowerCore 20100mAh Portable Charger with high-speed charging technology.",
+        "Specification": ["20100mAh Capacity", "High-Speed Charging", "Compact Design", "Universal Compatibility"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 23,
+        "product_title": "Sony WH-1000XM4",
+        "product_image": "https://sonysmart.com.bd/public/uploads/all/q5gy2RSoRIwRmFPLELLX2bu5e3XUCBPH8DtxjVGN.jpg",
+        "category": "Accessories",
+        "price": 72,
+        "description": "Sony WH-1000XM4 Wireless Noise-Canceling Overhead Headphones with industry-leading noise cancellation.",
+        "Specification": ["Industry-Leading Noise Cancellation", "30-Hour Battery Life", "Touch Sensor Controls", "Adaptive Sound Control"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 24,
+        "product_title": "Amazon Echo Dot (4th Gen)",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/2534-88537.jpg",
+        "category": "Accessories",
+        "price": 73,
+        "description": "Amazon Echo Dot (4th Gen) with Alexa voice control and improved sound quality.",
+        "Specification": ["Alexa Voice Control", "Improved Sound", "Compact Design", "Smart Home Compatibility"],
+        "availability": true,
+        "rating": 4.5
+      }
+]

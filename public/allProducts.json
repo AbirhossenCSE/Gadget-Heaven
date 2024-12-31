@@ -1,0 +1,268 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Dell-XPS-13-Plus-BD-Price-1.jpg",
+    "category": "Laptop",
+    "price": 50,
+    "description": "Dell XPS 13 with Intel i7, 16GB RAM, and 512GB SSD.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "13.4-inch FHD+ display"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 2,
+    "product_title": "Apple MacBook Air M1",
+    "product_image": "https://www.custommacbd.com/cdn/shop/products/macbook-air-gallery3-20201110_8a805bc2-c482-47c8-bf21-8787a65cc8d3_1200x1200.jpg?v=1626576902",
+    "category": "Laptop",
+    "price": 51,
+    "description": "Apple MacBook Air with M1 chip, 8GB RAM, and 256GB SSD.",
+    "Specification": ["Apple M1 Chip", "8GB RAM", "256GB SSD", "13.3-inch Retina display"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 3,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://www.custommacbd.com/cdn/shop/files/Hp-Spectre-X360-2024-Custom-Mac-BD.png?v=1720507427",
+    "category": "Laptop",
+    "price": 52,
+    "description": "HP Spectre x360 with Intel i7, 16GB RAM, and 512GB SSD.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "13.3-inch 4K OLED display"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 4,
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://aroz.com.bd/wp-content/uploads/2022/10/lenovo-laptops-x1-carbon-6th-gen-hero.webp",
+    "category": "Laptop",
+    "price": 53,
+    "description": "Lenovo ThinkPad X1 Carbon with Intel i7, 16GB RAM, and 512GB SSD.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "14-inch FHD display"],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": 5,
+    "product_title": "Asus ZenBook 14",
+    "product_image": "https://www.khancomputers.com.bd/img/2020/09/ASUS-ZenBook-14-UX434FQ-Core-i7-10th-Gen-14-Inch-FHD-Laptop-with-Windows-10_1.jpg.webp",
+    "category": "Laptop",
+    "price": 54,
+    "description": "Asus ZenBook 14 with AMD Ryzen 7, 16GB RAM, and 512GB SSD.",
+    "Specification": ["AMD Ryzen 7", "16GB RAM", "512GB SSD", "14-inch FHD display"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 6,
+    "product_title": "Microsoft Surface Laptop 4",
+    "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Surface-Laptop-4-Price-in-BD.jpg",
+    "category": "Laptop",
+    "price": 55,
+    "description": "Microsoft Surface Laptop 4 with AMD Ryzen 5, 8GB RAM, and 256GB SSD.",
+    "Specification": ["AMD Ryzen 5", "8GB RAM", "256GB SSD", "13.5-inch PixelSense display"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 7,
+    "product_title": "Acer Swift 3",
+    "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Acer-Swift-3-SF314-Price-1.jpg",
+    "category": "Laptop",
+    "price": 56,
+    "description": "Acer Swift 3 with Intel i5, 8GB RAM, and 256GB SSD.",
+    "Specification": ["Intel i5", "8GB RAM", "256GB SSD", "14-inch FHD display"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 8,
+    "product_title": "Razer Blade 15",
+    "product_image": "https://www.pchouse.com.bd/image/cache/catalog/111A/1439/razer-blade-15-advanced-model-i7-11th-gen-rtx3070-gaming-laptop-500x500.jpg.webp",
+    "category": "Laptop",
+    "price": 57,
+    "description": "Razer Blade 15 with Intel i7, 16GB RAM, and 512GB SSD with GTX 1660 Ti.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "15.6-inch FHD 144Hz display"],
+    "availability": false,
+    "rating": 4.7
+  },
+  {
+    "product_id": 9,
+    "product_title": "Dell Inspiron 15",
+    "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Dell-Inspiron-15-3511-bd.jpg",
+    "category": "Laptop",
+    "price": 58,
+    "description": "Dell Inspiron 15 with Intel i3, 4GB RAM, and 128GB SSD.",
+    "Specification": ["Intel i3", "4GB RAM", "128GB SSD", "15.6-inch FHD display"],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": 10,
+    "product_title": "iPhone 13 Pro",
+    "product_image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_09142021_inline.jpg.large.jpg",
+    "category": "Phones",
+    "price": 59,
+    "description": "Apple iPhone 13 Pro with A15 Bionic, 6GB RAM, and 256GB storage.",
+    "Specification": ["A15 Bionic", "6GB RAM", "256GB storage", "6.1-inch Super Retina XDR display"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 11,
+    "product_title": "Samsung Galaxy S21 Ultra",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-Z-Fold5-Icy-Blue-4723.jpg",
+    "category": "Phones",
+    "price": 60,
+    "description": "Samsung Galaxy S21 Ultra with Exynos 2100, 12GB RAM, and 256GB storage.",
+    "Specification": ["Exynos 2100", "12GB RAM", "256GB storage", "6.8-inch QHD+ AMOLED display"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 12,
+    "product_title": "OnePlus 9 Pro",
+    "product_image": "https://oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9-pro/Pine%20green-gallery..png",
+    "category": "Phones",
+    "price": 61,
+    "description": "OnePlus 9 Pro with Snapdragon 888, 8GB RAM, and 128GB storage.",
+    "Specification": ["Snapdragon 888", "8GB RAM", "128GB storage", "6.7-inch Fluid AMOLED display"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 13,
+    "product_title": "Google Pixel 6 Pro",
+    "product_image": "https://www.custommacbd.com/cdn/shop/files/3784-95312_540x.jpg?v=1687459730",
+    "category": "Phones",
+    "price": 62,
+    "description": "Google Pixel 6 Pro with Google Tensor, 12GB RAM, and 256GB storage.",
+    "Specification": ["Google Tensor", "12GB RAM", "256GB storage", "6.71-inch LTPO OLED display"],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": 14,
+    "product_title": "Xiaomi Mi 11 Ultra",
+    "product_image": "https://www.mobiledokan.co/wp-content/uploads/2020/12/Xiaomi-Mi-11-Ultra-Ceramic-Balck-500x500.jpg",
+    "category": "Phones",
+    "price": 63,
+    "description": "Xiaomi Mi 11 Ultra with Snapdragon 888, 12GB RAM, and 256GB storage.",
+    "Specification": ["Snapdragon 888", "12GB RAM", "256GB storage", "6.81-inch WQHD+ AMOLED display"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 15,
+    "product_title": "Sony Xperia 1 III",
+    "product_image": "https://www.mobiledokan.co/wp-content/uploads/2020/09/Sony-Xperia-1-III-500x500.jpg",
+    "category": "Phones",
+    "price": 64,
+    "description": "Sony Xperia 1 III with Snapdragon 888, 12GB RAM, and 256GB storage.",
+    "Specification": ["Snapdragon 888", "12GB RAM", "256GB storage", "6.5-inch 4K HDR OLED display"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 16,
+    "product_title": "Huawei P40 Pro",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/HUAWEI-P40-Pro-5G-Black-6721.jpg",
+    "category": "Phones",
+    "price": 65,
+    "description": "Huawei P40 Pro with Kirin 990, 8GB RAM, and 256GB storage.",
+    "Specification": ["Kirin 990", "8GB RAM", "256GB storage", "6.58-inch OLED display"],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": 17,
+    "product_title": "Asus ROG Phone 5",
+    "product_image": "https://www.mobiledokan.co/wp-content/uploads/2021/01/Asus-ROG-Phone-5-500x500.jpg",
+    "category": "Phones",
+    "price": 66,
+    "description": "Asus ROG Phone 5 with Snapdragon 888, 16GB RAM, and 256GB storage.",
+    "Specification": ["Snapdragon 888", "16GB RAM", "256GB storage", "6.78-inch AMOLED display"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 18,
+    "product_title": "Oppo Find X3 Pro",
+    "product_image": "https://www.mobiledokan.co/wp-content/uploads/2020/12/Oppo-Find-X3-Pro-Cosmic-Mocha-500x500.jpg",
+    "category": "Phones",
+    "price": 67,
+    "description": "Oppo Find X3 Pro with Snapdragon 888, 12GB RAM, and 256GB storage.",
+    "Specification": ["Snapdragon 888", "12GB RAM", "256GB storage", "6.7-inch QHD+ AMOLED display"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 19,
+    "product_title": "Apple AirPods Pro",
+    "product_image": "https://i5.walmartimages.com/seo/Open-Box-Apple-Airpods-Pro-with-Wireless-Charging-Case_77057503-32fc-4b0d-8b40-4fb928bfaf28_1.f3ddf06690e3d45b6a96b4247a3c236b.jpeg",
+    "category": "Accessories",
+    "price": 68,
+    "description": "Apple AirPods Pro with active noise cancellation and transparency mode.",
+    "Specification": ["Active Noise Cancellation", "Transparency Mode", "Wireless Charging Case", "Sweat and Water Resistant"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 20,
+    "product_title": "Samsung Galaxy Watch 4",
+    "product_image": "https://gadgetz.com.bd/wp-content/uploads/2022/01/galaxy-watch4-silver-.jpg",
+    "category": "Accessories",
+    "price": 69,
+    "description": "Samsung Galaxy Watch 4 with body composition analysis and advanced health monitoring.",
+    "Specification": ["Body Composition Analysis", "Advanced Health Monitoring", "Wear OS", "1.4-inch Super AMOLED display"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 21,
+    "product_title": "Logitech MX Master 3",
+    "product_image": "https://www.custommacbd.com/cdn/shop/products/log7.png?v=1613634745",
+    "category": "Accessories",
+    "price": 70,
+    "description": "Logitech MX Master 3 Wireless Mouse with advanced ergonomic design and precise control.",
+    "Specification": ["Ergonomic Design", "4000 DPI Precision", "USB-C Charging", "Flow Cross-Computer Control"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 22,
+    "product_title": "Anker PowerCore 20100",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/2001-79403.jpg",
+    "category": "Accessories",
+    "price": 71,
+    "description": "Anker PowerCore 20100mAh Portable Charger with high-speed charging technology.",
+    "Specification": ["20100mAh Capacity", "High-Speed Charging", "Compact Design", "Universal Compatibility"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 23,
+    "product_title": "Sony WH-1000XM4",
+    "product_image": "https://sonysmart.com.bd/public/uploads/all/q5gy2RSoRIwRmFPLELLX2bu5e3XUCBPH8DtxjVGN.jpg",
+    "category": "Accessories",
+    "price": 72,
+    "description": "Sony WH-1000XM4 Wireless Noise-Canceling Overhead Headphones with industry-leading noise cancellation.",
+    "Specification": ["Industry-Leading Noise Cancellation", "30-Hour Battery Life", "Touch Sensor Controls", "Adaptive Sound Control"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 24,
+    "product_title": "Amazon Echo Dot (4th Gen)",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/2534-88537.jpg",
+    "category": "Accessories",
+    "price": 73,
+    "description": "Amazon Echo Dot (4th Gen) with Alexa voice control and improved sound quality.",
+    "Specification": ["Alexa Voice Control", "Improved Sound", "Compact Design", "Smart Home Compatibility"],
+    "availability": true,
+    "rating": 4.5
+  }
+
+
+]

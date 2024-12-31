@@ -1,0 +1,101 @@
+[
+    {
+        "product_id": 1,
+        "product_title": "Dell XPS 13",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Dell-XPS-13-Plus-BD-Price-1.jpg",
+        "category": "Laptop",
+        "price": 50,
+        "description": "Dell XPS 13 with Intel i7, 16GB RAM, and 512GB SSD.",
+        "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "13.4-inch FHD+ display"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 2,
+        "product_title": "Apple MacBook Air M1",
+        "product_image": "https://www.custommacbd.com/cdn/shop/products/macbook-air-gallery3-20201110_8a805bc2-c482-47c8-bf21-8787a65cc8d3_1200x1200.jpg?v=1626576902",
+        "category": "Laptop",
+        "price": 51,
+        "description": "Apple MacBook Air with M1 chip, 8GB RAM, and 256GB SSD.",
+        "Specification": ["Apple M1 Chip", "8GB RAM", "256GB SSD", "13.3-inch Retina display"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 3,
+        "product_title": "HP Spectre x360",
+        "product_image": "https://www.custommacbd.com/cdn/shop/files/Hp-Spectre-X360-2024-Custom-Mac-BD.png?v=1720507427",
+        "category": "Laptop",
+        "price": 52,
+        "description": "HP Spectre x360 with Intel i7, 16GB RAM, and 512GB SSD.",
+        "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "13.3-inch 4K OLED display"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 4,
+        "product_title": "Lenovo ThinkPad X1 Carbon",
+        "product_image": "https://aroz.com.bd/wp-content/uploads/2022/10/lenovo-laptops-x1-carbon-6th-gen-hero.webp",
+        "category": "Laptop",
+        "price": 53,
+        "description": "Lenovo ThinkPad X1 Carbon with Intel i7, 16GB RAM, and 512GB SSD.",
+        "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "14-inch FHD display"],
+        "availability": false,
+        "rating": 4.6
+      },
+      {
+        "product_id": 5,
+        "product_title": "Asus ZenBook 14",
+        "product_image": "https://www.khancomputers.com.bd/img/2020/09/ASUS-ZenBook-14-UX434FQ-Core-i7-10th-Gen-14-Inch-FHD-Laptop-with-Windows-10_1.jpg.webp",
+        "category": "Laptop",
+        "price": 54,
+        "description": "Asus ZenBook 14 with AMD Ryzen 7, 16GB RAM, and 512GB SSD.",
+        "Specification": ["AMD Ryzen 7", "16GB RAM", "512GB SSD", "14-inch FHD display"],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 6,
+        "product_title": "Microsoft Surface Laptop 4",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Surface-Laptop-4-Price-in-BD.jpg",
+        "category": "Laptop",
+        "price": 55,
+        "description": "Microsoft Surface Laptop 4 with AMD Ryzen 5, 8GB RAM, and 256GB SSD.",
+        "Specification": ["AMD Ryzen 5", "8GB RAM", "256GB SSD", "13.5-inch PixelSense display"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 7,
+        "product_title": "Acer Swift 3",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Acer-Swift-3-SF314-Price-1.jpg",
+        "category": "Laptop",
+        "price": 56,
+        "description": "Acer Swift 3 with Intel i5, 8GB RAM, and 256GB SSD.",
+        "Specification": ["Intel i5", "8GB RAM", "256GB SSD", "14-inch FHD display"],
+        "availability": true,
+        "rating": 4.4
+      },
+      {
+        "product_id": 8,
+        "product_title": "Razer Blade 15",
+        "product_image": "https://www.pchouse.com.bd/image/cache/catalog/111A/1439/razer-blade-15-advanced-model-i7-11th-gen-rtx3070-gaming-laptop-500x500.jpg.webp",
+        "category": "Laptop",
+        "price": 57,
+        "description": "Razer Blade 15 with Intel i7, 16GB RAM, and 512GB SSD with GTX 1660 Ti.",
+        "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "15.6-inch FHD 144Hz display"],
+        "availability": false,
+        "rating": 4.7
+      },
+      {
+        "product_id": 9,
+        "product_title": "Dell Inspiron 15",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Dell-Inspiron-15-3511-bd.jpg",
+        "category": "Laptop",
+        "price": 58,
+        "description": "Dell Inspiron 15 with Intel i3, 4GB RAM, and 128GB SSD.",
+        "Specification": ["Intel i3", "4GB RAM", "128GB SSD", "15.6-inch FHD display"],
+        "availability": true,
+        "rating": 4.2
+      }
+]
