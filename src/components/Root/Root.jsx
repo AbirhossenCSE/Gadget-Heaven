@@ -42,7 +42,7 @@ const Root = () => {
                         }
                     </div>
                 </userContext.Provider>
-
+                
             </WishContext.Provider>
         </cartContext.Provider>
     );
