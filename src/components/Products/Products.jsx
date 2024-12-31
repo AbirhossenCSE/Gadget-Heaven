@@ -4,8 +4,8 @@ import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 import Product from '../Product/Product';
 import { Helmet } from 'react-helmet-async';
 import { Outlet, useLoaderData, useLocation, useNavigate } from "react-router-dom";
-// import Laptop from '../Laptop/Laptop';
-// import AllProducts from '../AllProducts/AllProducts';
+import Laptop from '../Laptop/Laptop';
+import AllProducts from '../AllProducts/AllProducts';
 
 const Products = () => {
 
@@ -32,10 +32,9 @@ const Products = () => {
     const handleCategory = category => {
 
         const newData = allProducts.filter(p => p.category == category);
-
     }
-    const location = useLocation();
 
+    const location = useLocation();
     const path = location.pathname;
 
 
@@ -57,9 +56,7 @@ const Products = () => {
             <Helmet>
                 <title>Gadget Heaven | Products </title>
                 <link rel="shortcut icon" href="https://i.ibb.co.com/hVqQxsG/favicon-16x16.png" type="image/x-icon" />
-
             </Helmet>
-
             {
                 path !== '/' &&
                 <div className='bg-primary py-5 text-white'>
@@ -119,14 +116,11 @@ const Products = () => {
                     {
                         path === '/' ?
                             <div className="content col-span-10">
-
                                 <div className='grid grid-cols-3 gap-5'>
-
                                     {
                                         activeProducts.map(product => <Product key={product.product_id} product={product} ></Product>)
                                     }
                                 </div>
-
                             </div>
                             : <Outlet />
                     }

@@ -28,8 +28,6 @@ const Dashboard = () => {
     }
     const handleIsWish = status => {
         if (status) {
-
-
             setWishActive(true);
             setCardActive(false);
 
@@ -38,8 +36,6 @@ const Dashboard = () => {
 
     const allProducts = useLoaderData();
     const [cartProduct, setCartProduct] = useState([]);
-
-
 
     useEffect(() => {
         const newCartProducts = [];
@@ -75,11 +71,10 @@ const Dashboard = () => {
         setTotalCost(sum);
     }, [cartProduct]);
 
+    
     const [isModalOpen, setIsModalOpen] = useState(false);
-
     const openModal = () => setIsModalOpen(true);
     const navigate = useNavigate();
-
     const closeModal = () => {
         setIsModalOpen(false);
         setTotalCost(0);
