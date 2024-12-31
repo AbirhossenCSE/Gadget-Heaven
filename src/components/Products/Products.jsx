@@ -106,6 +106,7 @@ const Products = () => {
                                     className={`border text-center border-gray-300 rounded-xl px-3 py-2 bg-gray-300 text-black ${path === '/products/accessories' ? 'bg-primary text-white' : ''}`}
 
                                 >Accessories</button>
+
                                 <button onClick={() => { handleCategory('Smart Watches') }} className='border text-center border-gray-300 rounded-xl px-3 py-2 bg-gray-300 text-black'>Smart Watches</button>
                                 <button onClick={() => { handleCategory('MacBook') }} className='border text-center border-gray-300 rounded-xl px-3 py-2 bg-gray-300 text-black'>MacBook</button>
                                 <button onClick={() => { handleCategory('Iphone') }} className='border text-center border-gray-300 rounded-xl px-3 py-2 bg-gray-300 text-black'>Iphone</button>
