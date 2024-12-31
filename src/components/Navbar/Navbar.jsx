@@ -8,6 +8,7 @@ import { IoIosHeartEmpty } from "react-icons/io";
 import { Helmet } from 'react-helmet-async';
 import Footer from '../Footer/Footer';
 import { IoSearch } from "react-icons/io5";
+import Products from '../Products/Products';
 
 
 const Navbar = () => {
@@ -18,11 +19,9 @@ const Navbar = () => {
 
     const handleCart = (x) => {
         // console.log(x)
-
     }
 
     const location = useLocation();
-
     const path = location.pathname;
 
 
@@ -50,7 +49,6 @@ const Navbar = () => {
             <li>
                 <NavLink
                     to="/"
-
                 >
                     Home
                 </NavLink>
@@ -91,7 +89,6 @@ const Navbar = () => {
 
     return (
         <>
-
             <div className='relative'>
                 <div className={`  ${path === '/' ? 'text-white  absolute left-0 right-0   rounded-3xl pb-24 bg-primary ' : ''}  `}>
 
@@ -120,13 +117,10 @@ const Navbar = () => {
                                 <sup>{wish?.length ? wish.length : ''}</sup>
                                 <IoIosHeartEmpty className='font-bold' />
                             </NavLink>
-
                         </div>
-
                     </div>
 
                     {/* banner part */}
-
                     {
                         path == '/' &&
                         <div className='bg-primary py-5 text-white'>
@@ -142,7 +136,6 @@ const Navbar = () => {
                             <p className='text-center'>Explore the latest gadgets that will take your experience to the next level.</p>
 
                             <div className='flex py-4 justify-center gap-5 items-center'>
-
                                 {
                                     path === '/' &&
                                     <a href="#products">
@@ -155,29 +148,20 @@ const Navbar = () => {
                             </div>
                         </div>
                     }
-
                 </div>
 
                 {path === '/' &&
-
                     <div className='absolute left-0 top-72 right-0'>
-
                         <div className='mx-20   '>
                             <div className='border-2  border-white px-4 pt-4 rounded-[32px]'>
-
                                 <img src={bannerImage} className='rounded-3xl h-[400px] w-full' alt="" />
-
                             </div>
-
                         </div>
-
                         <div id='products' className=' pt-4'>
-
-                            {/* {
+                            {
                                 path === '/' &&
                                 <Products></Products>
-
-                            } */}
+                            }
                             <Helmet>
                                 <title>SmartShop</title>
                             </Helmet>
