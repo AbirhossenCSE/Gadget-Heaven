@@ -14,11 +14,13 @@ const Products = () => {
     const [activeProducts, setActiveProducts] = useState([]);
 
     const allData = useLoaderData();
+    console.log(allData);
+    
 
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch('/allProducts.json')
+        fetch('allProducts.json')
             .then(res => res = res.json())
             .then(data => {
                 setAllProducts(data)
@@ -71,7 +73,6 @@ const Products = () => {
 
                 <section className='grid grid-cols-12 gap-8'>
 
-
                     <div className="sidebar col-span-2 ">
                         <div className='border border-gray-300 rounded-xl p-4'>
                             <div className='pt-5 flex flex-col gap-3'>
@@ -112,7 +113,6 @@ const Products = () => {
                                 <button onClick={() => { handleCategory('MacBook') }} className='border text-center border-gray-300 rounded-xl px-3 py-2 bg-gray-300 text-black'>MacBook</button>
                                 <button onClick={() => { handleCategory('Iphone') }} className='border text-center border-gray-300 rounded-xl px-3 py-2 bg-gray-300 text-black'>Iphone</button>
                             </div>
-
                         </div>
 
                     </div>

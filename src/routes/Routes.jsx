@@ -36,7 +36,7 @@ const routes = createBrowserRouter([
       {
         path: '/products',
         element: <Products></Products>,
-        loader: () => fetch('/allProducts.json'),
+        loader: () => fetch('allProducts.json'),
 
       },
 

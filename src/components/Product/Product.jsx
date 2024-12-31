@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-// import ProductDetail from '../ProductDetail/ProductDetail';
+import ProductDetail from '../ProductDetail/ProductDetail';
 import { cartContext } from '../Root/Root';
 import { toast } from 'react-toastify';
 import { BsCart3 } from 'react-icons/bs';
