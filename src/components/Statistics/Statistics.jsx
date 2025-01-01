@@ -28,7 +28,6 @@ const Statistics = () => {
         <>
             <Helmet>
                 <link rel="shortcut icon" href="https://i.ibb.co.com/hVqQxsG/favicon-16x16.png" type="image/x-icon" />
-
             </Helmet>
 
             <div className='bg-primary py-5 text-white'>

@@ -83,6 +83,16 @@ const Navbar = () => {
                     Dashboard
                 </NavLink>
             </li>
+            <li>
+                <NavLink
+                    to="/contactUs"
+                    className={({ isActive }) =>
+                        isActive ? "text-primary font-bold" : ""
+                    }
+                >
+                    ContactUs
+                </NavLink>
+            </li>
         </>
     );
 
