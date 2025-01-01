@@ -1,13 +1,6 @@
 import React from 'react';
 
-
-// https://i.ibb.co.com/nwmvGpR/laptop-1-1.jpg
-// https://i.ibb.co.com/wKk6v17/laptop-1-2.jpg
-// https://i.ibb.co.com/wR8St7M/laptop-1-3.jpg
-// https://i.ibb.co.com/K7bD4fn/laptop-1-4.jpg
-// https://i.ibb.co.com/hZ6HYCy/laptop-1-5.jpg
-// https://i.ibb.co.com/HT5d35v/laptop-1-6.jpg
-// https://i.ibb.co.com/Z2QMsfF/laptop-1-7.jpg
+// b10a8-gadget-heaven-indrojitmondal
 
 const Footer = () => {
     return (
